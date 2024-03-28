@@ -1,0 +1,20 @@
+//version
+
+express current version ->  4.18.3
+
+1st part (4) ->   Major / Breaking update. In existing code the first digit should not be updated otherwise it can break the existing application. 
+if you are writing the new code from scratch you can use the updated. For eg in version 4 app.get works in version 5. they might change it to app.GET 
+
+2nd part (18)   ->    Recommended Bug Fix (eg adding some new feature)
+
+3rd part (3)  ->  minor fixes (optional)    that is express.js will have done some minor changes like  eg- changing some spellimg mistakes
+
+V.IMP
+
+^ (compatibality version ) symbol means whenever you do npm update express it will install all recommended and minor fixes automatically
+last two digits can be changed
+Eg - 4.18.3 can be updated to 4.18.4 or 4.19.0 but it cannot be updated to 15.18.0
+because the major change it will not update that you have to do manually by uninstalling the current one and installing the latest.
+
+~ (Approximately equivalent to version) symbol means whenever you do npm update express it will install only minor fixes automatically
+only the last digit can be changed

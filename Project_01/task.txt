@@ -1,0 +1,27 @@
+** our server should be hybrid (it is a good practice) that is it should serve the client 
+no matter what type it is a browser, mobile or alexa like device  **
+
+REST API - JSON {we will mainly focus on this}
+
+GET  /api/users  -   List all users   -> Done
+
+GET  /api/users/1  -  Get the user with ID 1
+GET  /api/users/2  -  Get the user with ID 2
+
+//DYNAMIC PATH PARAMETERS
+GET /api/users/:id
+here by using : we denote ID as a variable | Dynamic
+
+REST API - HTML (i.e it will render an html page if the client is browser)
+
+GET /users  
+GET /users/1 -
+
+
+//by default browser uses get request 
+
+POST  /users  - Create a new user
+
+PATCH /users/1  -  Edit the user with ID 1
+
+DELET /users/1  -  Delete the user with ID 1
